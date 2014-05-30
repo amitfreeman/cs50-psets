@@ -1,0 +1,60 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+  
+	
+	/* MY ADDITION*/
+	/*float : right;*/
+	margin-top : 50px;
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+.table_header
+{
+	font-weight:bold;
+}
+
+.user_cash
+{
+	color: #ff0000;
+}
+
+
+/* mouse over link */
+span > a:hover 
+{
+color:#000000;
+background-color:#FF671e;
+text-decoration: none;
+
+}  
+
+
